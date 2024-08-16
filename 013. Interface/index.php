@@ -123,10 +123,7 @@
 
     // Method
     public function getInvoice() {
-      // Constant
-      {
-        $text  = "<b>". __CLASS__ . "</b> : " . parent::$number++ . "<br />";
-      }
+      $text  = "<b>List</b>       : " . parent::$number++ . "<br />";
       $text .= "<b>Type</b>       : {$this->getType()} <br />";
       $text .= "<b>Product</b>    : {$this->getLabel()} <br />";
       $text .= "<b>Publisher</b>  : {$this->getPublisher()} <br />";
@@ -153,10 +150,7 @@
 
     // Method
     public function getInvoice() {
-      // Constant
-      {
-        $text  = "<b>". __CLASS__ . "</b> : " . parent::$number++ . "<br />";
-      }
+      $text  = "<b>List</b>       : " . parent::$number++ . "<br />";
       $text .= "<b>Type</b>       : {$this->getType()} <br />";
       $text .= "<b>Product</b>    : {$this->getLabel()} <br />";
       $text .= "<b>Publisher</b>  : {$this->getPublisher()} <br />";
